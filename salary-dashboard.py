@@ -8,7 +8,7 @@ st.set_page_config(
     layout= "wide"
 )
 
-df = pd.read_csv("C:\Projetos\imersao\salary-dashboard\yasmin-kanoshiki-dados-imersao-final.csv")
+df = pd.read_csv("yasmin-kanoshiki-dados-imersao-final.csv")
 
 st.sidebar.header("🔍 Filtros")
 
